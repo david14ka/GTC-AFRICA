@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">GTC AFRICA</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="help">HELP</string>
+
+    <string name="community_based_rehabilitation">COMMUNITY BASED REHABILITATION</string>
+    <string name="transitional_facilities">TRANSITIONAL FACILITIES</string>
+    <string name="resource_directory">RESOURCE DIRECTORY</string>
+    <string name="counseling_service">COUNSELING SERVICE</string>
+    <string name="contact">CONTACT</string>
+    <string name="service_providers">SERVICE PROVIDERS</string>
+    <string name="intervention">INTERVENTION</string>
+
+    <string name="awareness_meeting">AWARENESS MEETING</string>
+    <string name="outreaches">OUTREACHES</string>
+    <string name="upcoming_outreaches">UPCOMING OUTREACH</string>
+    <string name="prevention">PREVENTION</string>
+    <string name="online_services">ONLINE SERVICES</string>
+
+    <string name="title_activity_details_based">DetailsBasedActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_student_info">StudentInfoActivity</string>
+    <string name="i_agree_with_the_terms_and_conditions">I AGREE WITH THE TERMS AND CONDITIONS</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="username_email">USERNAME/ EMAIL</string>
+    <string name="create_student_account">CREATE STUDENT ACCOUNT</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_based_navigation">GTC Home</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

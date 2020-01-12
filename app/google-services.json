@@ -1,0 +1,49 @@
+
+{
+  "project_info": {
+    "project_number": "572195901650",
+    "firebase_url": "https://market-place-faaa0.firebaseio.com",
+    "project_id": "market-place-faaa0",
+    "storage_bucket": "market-place-faaa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572195901650:android:b1c422ed1233f5107b9d0b",
+        "android_client_info": {
+          "package_name": "com.dkz.gtcafrica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572195901650-hr7o5mimss4q2a9a0b5pv2t8qfqrjksr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dkz.gtcafrica",
+            "certificate_hash": "9ea8f53b3282e51cfc13523f5c9b9cc18a335c50"
+          }
+        },
+        {
+          "client_id": "572195901650-1ua84vmhg74iiqh496uu5ab6t82i18le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY7MPabz-NX8ORm0AlBPpkiKZMnTtkNXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572195901650-1ua84vmhg74iiqh496uu5ab6t82i18le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

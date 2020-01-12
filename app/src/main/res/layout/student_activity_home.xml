@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student.ui.StudentHomeBasedActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_gtc2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_blue"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:tag="0"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:gravity="center"
+                        android:text="HELP"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:tag="1"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_community_based_rehabitaion" />
+
+                    <ImageView
+                        android:tag="2"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_transitional_facilities" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/txtBased"/>
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/community_based_rehabilitation"
+                        />
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/transitional_facilities"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:tag="3"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_awareness_meetings" />
+
+                    <ImageView
+                        android:tag="4"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_outreaches" />
+
+                    <ImageView
+                        android:tag="5"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_prevention" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/awareness_meeting"/>
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/outreaches"/>
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/prevention"
+                         />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:tag="6"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_intervention" />
+
+                    <ImageView
+                        android:tag="7"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_service_providers" />
+
+                    <ImageView
+                        android:tag="8"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_contact" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/intervention"/>
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/service_providers" />
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/contact"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:tag="9"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_councelling_service" />
+
+                    <ImageView
+                        android:tag="10"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_resource_directory" />
+
+                    <ImageView
+                        android:tag="11"
+                        android:onClick="xml_community_based_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rect_btn"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/ic_online_services" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/counseling_service" />
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/resource_directory"/>
+
+                    <TextView
+                        style="@style/txtBased"
+                        android:text="@string/online_services"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/bottom_navigation" />
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Student.ui.StudentInfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="STUDENT PERSONAL INFORMATION"
+        android:textColor="@color/titleWhite"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editNames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/bwhite"
+                android:hint="NAMES"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:textAllCaps="true"
+                android:padding="12dp"
+                android:textColor="@color/blue2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/bwhite"
+                android:hint="SURNAME"
+
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/blue2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editDob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/bwhite"
+                android:hint="DATE OF BIRTH"
+                android:inputType="date"
+                android:padding="12dp"
+                android:textColor="@color/blue2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/bwhite"
+                android:hint="MALE / FEMALE"
+                android:inputType="textAutoComplete"
+                android:padding="12dp"
+                android:textColor="@color/blue2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editCitizenship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/bwhite"
+                android:hint="CITIZENSHIP"
+
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/blue2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/bwhite"
+                android:hint="PROVINCE"
+
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/blue2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/bwhite"
+                android:hint="ADDRESS"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/blue2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editPostalCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@color/bwhite"
+                android:hint="POSTAL CODE"
+                android:imeOptions="actionDone"
+                android:inputType="textPostalAddress"
+                android:padding="12dp"
+                android:textColor="@color/blue2"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:id="@+id/cxbTerms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="UPLOAD PROFILE PICK"
+                android:textColor="@color/white"
+                android:checked="true"/>
+
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="xml_home_based"
+                android:padding="12dp"
+                android:text="NEXT"
+                android:textColor="@color/titleWhite"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

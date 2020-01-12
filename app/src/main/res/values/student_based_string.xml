@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="button1">
+        <item/>
+    </string-array>
+    <string-array name="button2">
+        <item>HOUSE OF HOPE(LOCATIONS)</item>
+        <item>LOCATION, CONTACT/INFO</item>
+        <item>KIND OF SERVICES PROVIDED</item>
+    </string-array>
+    <string-array name="button3">
+        <item>LOCATIONS, CONTACT PERSON /INFO</item>
+        <item>SERVICES PROVIDED</item>
+    </string-array>
+    <string-array name="button4">
+        <item>MEETING 01/05/2019</item>
+        <item>MEETING 02/05/2019</item>
+        <item>MEETING 03/05/2019</item>
+        <item>MEETING 04/05/2019</item>
+        <item>MEETING 05/05/2019</item>
+    </string-array>
+    <string-array name="button5">
+        <item>BELLVILLE</item>
+        <item>ELSIES RIVER</item>
+        <item>MAITLAND</item>
+        <item>DELFT</item>
+        <item>MITCHELLS PLAIN</item>
+        <item>KUILS RIVER</item>
+        <item>KUILS RIVER</item>
+        <item>EERSTERIVER</item>
+    </string-array>
+    <string-array name="button6">
+        <item>LEAN MORE ABOUT INTERVENTION MODEL</item>
+        <item>INTERVENTION APPROCH FOR FACILITATORS</item>
+        <item>INTERVENTION APPROCH FOR EXTREME CASES</item>
+        <item>PROVIDE FEEDBACK ON INTERVENTION ACTIVITIES</item>
+    </string-array>
+    <string-array name="button7">
+        <item>LEAN MORE ABOUT INTERVENTION MODEL</item>
+        <item>INTERVENTION APPROCH FOR FACILITATORS</item>
+        <item>INTERVENTION APPROCH FOR EXTREME CASES</item>
+        <item>PROVIDE FEEDBACK ON INTERVENTION ACTIVITIES</item>
+    </string-array>
+    <string-array name="button8">
+        <item>LIST OF SUPPLIERS</item>
+        <item>TYPE OF SERVICE PROVIDER</item>
+        <item>SUBMIT NEW SERVICE PROVIDER</item>
+        <item>REVIEW SERVICE PROVIDER INTERVENTION</item>
+    </string-array>
+    <string-array name="button9">
+        <item>RD</item>
+        <item>SUB RD</item>
+        <item>ND</item>
+        <item>COMMUNICATION</item>
+        <item>HR DIRECTORS</item>
+    </string-array>
+    <string-array name="button10">
+        <item>TRAIN COUNSELLORS</item>
+        <item>LIST OF OFF-SITE COUNCILLORS</item>
+        <item>LIST OF DEDICATED COUNCILLORS</item>
+        <item>SUBMIT APPLICATION FOR NEW COUNCILLOR</item>
+    </string-array>
+    <string-array name="button11">
+        <item>SEARCH FOR SUPPLIERS</item>
+        <item>DELIVERY ROUTES</item>
+        <item>LIST OF AVAILABLE SLEEPING EQUIPMENT</item>
+        <item>LIST OF OPEN RECRUITMENT</item>
+        <item>ADD INVENTORY</item>
+    </string-array>
+
+    <string-array name="button12">
+        <item>TRAINING</item>
+        <item>DEVOTIONAL</item>
+        <item>MOTIVATIONAL</item>
+        <item>LIVE STREAM</item>
+    </string-array>
+
+    <string-array name="menuList">
+        <item >HELP</item>
+        <item >COMMUNITY BASED REHABILITATION</item>
+        <item >TRANSITIONAL FACILITIES</item>
+
+        <item>AWARENESS MEETING</item>
+        <item>OUTREACHES</item>
+        <item>PREVENTION</item>
+
+        <item >INTERVENTION</item>
+        <item >SERVICE PROVIDERS</item>
+        <item >CONTACT</item>
+
+        <item >COUNSELING SERVICE</item>
+        <item >RESOURCE DIRECTORY</item>
+        <item >ONLINE SERVICES</item>
+
+    </string-array>
+</resources>
